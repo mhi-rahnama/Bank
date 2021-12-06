@@ -1,0 +1,61 @@
+.container {
+  flex-direction: row;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+.frame {
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+}
+.cart {
+  margin-top: 100px;
+}
+
+.back {
+  background-color: aquamarine;
+  width: 200px;
+  height: 200px;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+.rob_image {
+  background-image: url("../img/sideBack.jpg");
+  width: 40px;
+  height: 40px;
+  background-size: cover;
+}
+
+.barcode {
+  background-image: url("../img/barcode.jpeg");
+  width: 200px;
+  height: 80px;
+  background-size: cover;
+  margin-top: 140px;
+}
+.logo {
+  background-image: url("../img/ayande.jpeg");
+  width: 80px;
+  height: 80px;
+  background-size: cover;
+  margin-left: 20px;
+  margin-right: 0px;
+}
+.Receipt {
+  font-size: 20px;
+  margin: 20px;
+  margin-top: 80px;
+}
+.ReceipSource {
+  font-size: 20px;
+  /* margin: 20px; */
+  /* margin-top: 60px; */
+}
+.Bank {
+  font-size: 20px;
+  margin-top: 20px;
+  /* text-align: center; */
+}
